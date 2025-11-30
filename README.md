@@ -15,3 +15,9 @@ A partir de este código inicial se deberán aplicar las transformaciones necesa
 El [dataset](https://drive.google.com/drive/folders/1KDZ62i4Z7o0-g36d1Lg6GWLD8jMlCbxW?usp=sharing) usado durante la realización de la práctica ha sido uno que contenía 5 clases diferentes, todas sobre lenguaje de signos (Yes, I Love You, No, Hello, Thank You). Los datos fueron sacados de la web kaggle (click [aquí](https://www.kaggle.com/datasets/mhmd1424/sign-language-detection-dataset-5-classes) para ver)
 
 <img alt="kaggle_final" src="/images/kaggle_final.png">
+
+El conjunto de datos también será dejado en un zip para su descarga, si se desea. Para poder probarlo, el proyecto debe de abrirse en Google Colab, se debe añadir a google drive el dataset y poner la ruta correcta. Se han realizado 5 experimentos: modelo MLP, modelo CNN con 5 épocas, modelo CNN con 20 épocas, modelo CNN con más capas y modificaciones, Transfer Learning. Las capturas de su funcionamiento se encuentran disponibles dentro del notebook.
+
+## Conclusión
+
+Cuantas menos imágenes se posee, más posible es que se presente un caso de overfitting. Esto es cuando el modelo empieza a memorizar las imágenes, más que aprender, porque ya no tiene de donde tirar. Con ciertos retoques, ese problema se puede ir reduciendo hasta casi hacerlo desaparecer del todo. Por otro lado, se nota que el entrenamiento del modelo usado para Transfer Learning es mayor, pues analiza las imágenes con facilidad y obtiene resultados muchos mejores. Los resultados ofrecidos en el primer experimento, con MLP son pobres, mostrando que es el peor modelo empleado en la práctica. CNN aumenta bastante los porcentajes y devuelve resultados mejores. 
