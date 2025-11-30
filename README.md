@@ -12,4 +12,7 @@ A partir de este código inicial se deberán aplicar las transformaciones necesa
 
 ## Lenguaje de Signos
 
-El [dataset](https://drive.google.com/drive/folders/1KDZ62i4Z7o0-g36d1Lg6GWLD8jMlCbxW?usp=sharing) usado durante la realización de la práctica ha sido uno que contenía 5 clases diferentes, todas sobre lenguaje de signos (Yes, I Love You, No, Hello, Thank You).
+El [dataset](https://drive.google.com/drive/folders/1KDZ62i4Z7o0-g36d1Lg6GWLD8jMlCbxW?usp=sharing) usado durante la realización de la práctica ha sido uno que contenía 5 clases diferentes, todas sobre lenguaje de signos (Yes, I Love You, No, Hello, Thank You). Los datos fueron sacados de la web kaggle (click [aquí](https://www.kaggle.com/datasets/mhmd1424/sign-language-detection-dataset-5-classes) para ver)
+
+<img width="2790" height="1476" alt="image" src="https://github.com/user-attachments/assets/96a9f5e8-12ab-41d7-9fcf-8081e6c2290b" />
+
