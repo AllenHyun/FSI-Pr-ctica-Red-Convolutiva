@@ -16,7 +16,7 @@ El [dataset](https://drive.google.com/drive/folders/1KDZ62i4Z7o0-g36d1Lg6GWLD8jM
 
 <img alt="kaggle_final" src="/images/kaggle_final.png">
 
-El conjunto de datos también será dejado en un zip para su descarga, si se desea. Para poder probarlo, el proyecto debe de abrirse en Google Colab, se debe añadir a google drive el dataset y poner la ruta correcta. Se han realizado 5 experimentos: modelo MLP, modelo CNN con 5 épocas, modelo CNN con 20 épocas, modelo CNN con más capas y modificaciones, Transfer Learning. Las capturas de su funcionamiento se encuentran disponibles dentro del notebook.
+El conjunto de datos no puede ser colgado en github debido a su tamaño, pero puede ser descargado desde el link anteriormente dado. Para poder probarlo, el proyecto debe de abrirse en Google Colab, se debe añadir a google drive el dataset y poner la ruta correcta. Se han realizado 5 experimentos: modelo MLP, modelo CNN con 5 épocas, modelo CNN con 20 épocas, modelo CNN con más capas y modificaciones, Transfer Learning. Las capturas de su funcionamiento se encuentran disponibles dentro del notebook.
 
 ## Conclusión
 
