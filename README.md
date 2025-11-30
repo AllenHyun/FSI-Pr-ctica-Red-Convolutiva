@@ -21,3 +21,35 @@ El conjunto de datos no puede ser colgado en github debido a su tamaño, pero pu
 ## Conclusión
 
 Cuantas menos imágenes se posee, más posible es que se presente un caso de overfitting. Esto es cuando el modelo empieza a memorizar las imágenes, más que aprender, porque ya no tiene de donde tirar. Con ciertos retoques, ese problema se puede ir reduciendo hasta casi hacerlo desaparecer del todo. Por otro lado, se nota que el entrenamiento del modelo usado para Transfer Learning es mayor, pues analiza las imágenes con facilidad y obtiene resultados muchos mejores. Los resultados ofrecidos en el primer experimento, con MLP son pobres, mostrando que es el peor modelo empleado en la práctica. CNN aumenta bastante los porcentajes y devuelve resultados mejores. 
+
+## Webgrafía
+
+WEBGRAFÍA FSI
+
+https://docs.python.org/3/library/os.path.html
+https://pypi.org/project/albumentations
+https://www.w3schools.com/python/ref_os_walk.asp
+https://stackoverflow.com/questions/79146746/clarifying-batch-size-when-using-multiple-gpus#:~:text=batch_size%20in%20the%20DataLoader%20specifies,Each%20GPU%20processes%20512%20samples
+https://docs.pytorch.org/vision/main/generated/torchvision.datasets.ImageFolder.html
+https://docs.pytorch.org/docs/stable/data.html
+https://phuijse.github.io/MachineLearningBook/contents/neural_networks/transfer_learning.html
+https://interactivechaos.com/es/manual/tutorial-de-machine-learning/one-hot-encoding
+https://docs.pytorch.org/docs/stable/generated/torch.Tensor.backward.html
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html
+https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.tight_layout.html
+https://www.reddit.com/r/learnmachinelearning/comments/9ukdvc/what_error_might_happen_when_my_learning_rate_is/
+https://gamco.es/glosario/percepatron-multicapa-mlp/
+https://docs.pytorch.org/docs/stable/generated/torch.nn.Linear.html
+https://docs.pytorch.org/docs/stable/generated/torch.nn.ReLU.html
+https://www.ultralytics.com/es/glossary/relu-rectified-linear-unit#:~:text=La%20no%20linealidad%20introducida%20por,datos%20médicos%20de%20alta%20resolución.
+https://stackoverflow.com/questions/50792316/what-does-1-of-view-mean-in-pytorch
+https://docs.pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html
+https://www.datacamp.com/es/tutorial/adam-optimizer-tutorial
+https://docs.pytorch.org/docs/stable/generated/torch.nn.Conv2d.html
+https://docs.pytorch.org/docs/stable/generated/torch.nn.MaxPool2d.html
+https://docs.pytorch.org/docs/stable/generated/torch.flatten.html
+https://docs.pytorch.org/docs/stable/generated/torch.nn.LazyLinear.html
+https://docs.pytorch.org/docs/stable/generated/torch.nn.Dropout.html
+https://keepcoding.io/blog/batch-normalization-red-convolucional/
+https://docs.pytorch.org/vision/main/models/generated/torchvision.models.resnet18.html
+https://github.com/Leslie-Romero/VC_P3_LRM_MCV/blob/main/Tareas.ipynb
